@@ -3,8 +3,13 @@ import Title from '../shared/Title';
 
 
 export default function ClientData({client}) {
-  const {name: nameClient, lastName, address} = client;
-  const {country, city, street, number} = address;
+  const {
+    name: nameClient, lastName,
+    address:{
+      country, city, street, number
+    }
+  } = client;
+
   return (
    <>
    <Title className='font-bold' title='Client data'/>
@@ -18,7 +23,7 @@ export default function ClientData({client}) {
 }
 
 ClientData.propTypes = {
-  client: PropTypes.string,
+  client: PropTypes.object,
 }
 
 

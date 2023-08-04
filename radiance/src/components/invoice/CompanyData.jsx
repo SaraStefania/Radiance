@@ -15,5 +15,5 @@ export default function CompanyData({company}) {
 }
 
 CompanyData.propTypes = {
-    company: PropTypes.string,
+    company: PropTypes.object,
 }

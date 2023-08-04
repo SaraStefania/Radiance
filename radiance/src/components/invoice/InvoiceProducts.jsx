@@ -26,5 +26,5 @@ export default function InvoiceProducts({items}) {
 }
 
 InvoiceProducts.propTypes = {
-    items: PropTypes.string,
+    items: PropTypes.array,
 }

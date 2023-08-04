@@ -1,5 +1,5 @@
 
-import InvoiceApp from './components/invoice/InvoiceApp'
+import InvoiceApp from './pages/InvoiceApp'
 function App() {
 
   return (
