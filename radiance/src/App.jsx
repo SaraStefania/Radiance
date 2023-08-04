@@ -1,10 +1,11 @@
-import './App.css'
-
+import Button from './components/shared/Button'
+import InvoiceApp from './components/InvoiceApp'
 function App() {
 
   return (
-    <div className="bg-blue-500 p-4 text-white">
-    ¡Hola, mundo! Este es un texto de ejemplo con estilos de Tailwind CSS.
+    <div>
+      <InvoiceApp/>
+      <Button text='hola' className="w-32 h-10 bg-electricBlue rounded-xl"/>
   </div>
   )
 }
