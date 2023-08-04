@@ -1,11 +1,11 @@
-import Button from './components/shared/Button'
-import InvoiceApp from './components/InvoiceApp'
+
+import InvoiceApp from './components/invoice/InvoiceApp'
 function App() {
 
   return (
     <div>
       <InvoiceApp/>
-      <Button text='hola' className="w-32 h-10 bg-electricBlue rounded-xl"/>
+      {/* <Button text='hola' className="w-32 h-10 bg-electricBlue rounded-xl"/> */}
   </div>
   )
 }
